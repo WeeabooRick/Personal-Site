@@ -1,0 +1,186 @@
+/**************Tag Selector**************/
+body
+{
+    margin: 0px; /*Aligns to edge*/
+    text-align: center; /* will centre everyhting inside parent if width is not set.*/
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1
+{
+    margin: 50px auto 0 auto;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-size: 5.625rem;
+    color: #DADDFC;
+    /*margin: 0 auto 0 auto; Can be used to centre or "0 auto" */
+}
+
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 40 div by 16*/
+    font-weight: normal;
+    color: #2E4C6D;
+    padding-bottom: 10px;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #FC997C;
+}
+
+hr
+{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FFB085;
+    border-width: 5px;
+    height: 0px;
+    width: 3%;
+    margin: 50px auto 50px auto;
+}
+
+p
+{
+    line-height: 2;
+}
+
+a
+{
+   color: #2E4C6D; 
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   margin: 10px 20px;
+   text-decoration: none;
+}
+
+a:hover
+{
+    color: #DADDFC;
+}
+
+/*************Class Selector*************/
+.topContainer
+{
+    background-color: #396EB0;
+    position: relative;
+    padding-top: 4%;
+}
+
+.middleContainer
+{
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bottomContainer
+{
+    background-color: #396EB0;
+    padding: 50px 0 20px;
+}
+
+.intro
+{
+    width: 30%;
+    margin: auto;
+}
+
+.skillRow
+{
+    width: 40%;
+    margin: 100px auto 50px auto; 
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.skillImages
+{
+    border-radius: 100%;
+    width: 200px;
+}
+
+.codeImage1
+{
+    width: 5%;
+    position: absolute;
+    top: 100px;
+    right: 400px;
+}
+
+.codeImage2
+{
+    width: 5%;
+    position: absolute;
+    left: 400px;
+    bottom: 200px;
+}
+
+.computerImage
+{
+    width: 15%;
+    position: relative;
+    left: 300px;
+    top: 47px;
+}
+
+.profileImage
+{
+    border-radius: 100%;
+    width: 200px;
+}
+
+.contactText
+{
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.copyrightText
+{
+    color: #DADDFC;
+    font-size: 0.75em;
+    padding: 20px 0;
+}
+
+
+.btn
+ {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #2E4C6D;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover 
+  {
+    background: #396EB0;
+    text-decoration: none;
+  }
+
+/**************ID Selector***************/
+
+#programmerTitle
+{
+    color: #DADDFC;
+    margin-bottom: 0;
+}
+
+#drawingImage
+{
+    float: right;
+    margin-left: 30px;
+}
+
+#programmerImage
+{
+    float: left;
+    margin-right: 30px;
+}
